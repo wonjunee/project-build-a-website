@@ -27,20 +27,6 @@ body {
 	padding-right: 0;
 }
 
-.box {
-	width: calc((100% - 60px)/3);
-}
-
-.box.left-two {
-	margin-right: 30px;
-}
-
-#projects {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 15;
-}
-
 img {
 	width: 100%;
 }
@@ -49,4 +35,8 @@ hr {
 	border-style: solid;
 	border-color: #7d97ad;
 	border-width: 3px 0 0 0;
+}
+
+h4 {
+	font-size: 15px;
 }
